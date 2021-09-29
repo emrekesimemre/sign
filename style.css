@@ -72,7 +72,6 @@ body{
         font-weight: lighter;
     }
     #border{
-        border: solid 10px;
-        border-radius: 30px;
+        border: solid 12px;
         border-image:linear-gradient(to right, #21BFE2,#9C55F3 ,#DB1DFA ) 30;
     }
