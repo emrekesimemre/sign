@@ -1,15 +1,15 @@
 body{
-    border: solid 5px;
+
     width:510px;
     height: 550px;
     margin: auto;
-    border-radius: 10px;
-    border-color:blue
+    
 }
 
 #title{
     text-align: center;
     margin-top: 50px;
+    font-weight: lighter;
 }
 
 #face-button{
@@ -17,7 +17,7 @@ body{
     height: 50px;
     margin-left: 100px;
     border-radius: 5px;
-    background-color: blue;
+    background-color: rgb(59, 89, 152);
     color: white;
     font-size: 15px;
 }
@@ -48,7 +48,8 @@ body{
         height: 40px;
         margin-bottom: 10px;
         border-radius: 10px;
-        background-color: rgb(224, 220, 220);
+        background-color: rgb(247, 247, 247);
+        color: rgb(85, 85, 85);
     }
 
     #form-button{
@@ -62,6 +63,16 @@ body{
         width: 200px;
         margin: auto;
         margin-top: 50px;
-        color: gray;
+        color: rgb(107, 109, 107);
     }
  
+    #sign,
+    #forgot{
+        color: rgb(153, 181, 215);
+        font-weight: lighter;
+    }
+    #border{
+        border: solid 10px;
+        border-radius: 30px;
+        border-image:linear-gradient(to right, #21BFE2,#9C55F3 ,#DB1DFA ) 30;
+    }
